@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.css">
+
+  <style>
+    .a {
+      background-color: #ff09fc75;
+    }
+
+    .banner {
+      background: url(image/balaji-banner.jpg);
+
+      height: 800px;
+
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .navbar {
+      background: white
+        /*#000000a6*/
+      ;
+    }
+
+    .navbar-nav li {
+      padding: 0 10px;
+    }
+
+    .navbar-nav li a {
+      color: green;
+      /*#fff!important;*/
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+
+    .mob-logo {
+      width: 50px !impotant;
+      display: none;
+    }
+
+    @media(max-width: 600px) {
+      .mob-logo {
+        display: block;
+      }
+
+      .navbar {
+        background-color: white;
+      }
+
+      .web-logo {
+        display: none;
+      }
+    }
+
+    .mainfooter {
+      background: white;
+      padding-top: 50px;
+
+    }
+
+    .header {
+      background-color: black;
+      width: 100%;
+      height: 80px;
+    }
+
+    .header h3 {
+      letter-spacing: 0.5px;
+      font-size: 13px;
+      padding-top: 30px;
+    }
+
+    /* b{
+    font-size: 70px;
+
+    border-bottom-style: ridge;
+    font-weight: bold;
+    border-bottom-color: #82c434;
+  }
+.carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 27%;
+    left: 82px;
+  }*/
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container-fluid">
+      <a href="" class="navbar-brand">
+        <img src="image/17.png" style="width: 180px;" class="web-logo">
+      </a>
+      <a href="" class="navbar-brand">
+        <img src="image/18.png" style="width: 100px;" class="mob-logo">
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#pn" style="color:green">
+        <!--  <span class="navbar-toggler-icon"></span> -->
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
+      <div class="collapse navbar-collapse" id=pn>
+        <ul class="navbar-nav ms-auto">
+          <li><a href="index.html" class="nav-link">HOME</a></li>
+          <li><a href="dryfruits.html" class="nav-link">DRY FRUITS</a></li>
+          <li><a href="Masala.html" class="nav-link">MASALA</a></li>
+          <li><a href="dall.html" class="nav-link">DAL</a></li>
+          <li><a href="balaji_wafers.html" class="nav-link">BALAJI WAFERS</a></li>
+          <li><a href="other_items.html" class="nav-link">OTHER ITEMS</a></li>
+          <button type="button" class="btn  " data-bs-toggle="modal" data-bs-target="#aa" style="color: green; font-weight: 600;
+     font-size: 18px;"><!---modal div start--->
+            LOGIN
+          </button>
+        </ul>
+      </div><!--collapse end-->
+    </div><!--container-fluid-->
+  </nav><!--nav end-->
+
+
+  <div class="banner">
+  </div>
+
+
+
+  <br>
+  <div class="container-fluid">
+    <div class="container">
+      <h2 class="text-center k ">BALAJI<b style="color: green;">CHIPS</b></h2>
+      <br>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img src="image/chat-chatka.jpeg" style="height: 230px ;padding-bottom: 3%;" class="w-100"></a>
+          <h5 class="text-center">CHAT CHATKA</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>18 gm.- Rs 5.00</option>
+              <option>155 gm.- Rs 35.00</option>
+
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+
+          <!-- <h5 class="text-center">DRY FRUITS</h5> -->
+
+        </div>
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img src="image/tomato-twist.jpeg" style="height: 230px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">TOMATO TWIST</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>18 gm.- Rs 5.00</option>
+              <option>155 gm.- Rs 35.00</option>
+
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img src="image/masala-masti.jpeg" style="height: 230px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">MASALA MASTI</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>18 gm.- Rs 5.00</option>
+              <option>155 gm.- Rs 35.00</option>
+
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+        </div>
+
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img src="image/cream-onion.jpeg" style="height: 230px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">CREAM ONION</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>18 gm.- Rs 5.00</option>
+              <option>155 gm.- Rs 35.00</option>
+
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+        </div>
+
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img src="image/simply-salted.jpeg" style="height: 230px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">SIMPLY SALTED</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>18 gm.- Rs 5.00</option>
+              <option>155 gm.- Rs 35.00</option>
+
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+
+
+      </div><!---row end-->
+    </div><!--container end-->
+  </div><!--end container-fluid--->
+
+  <br>
+  <div class="container-fluid">
+    <div class="container">
+      <h2 class="text-center k">BALAJI<b style="color: green;">BHEL</b></h2>
+      <br>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img src="image/bhel-mix.jpeg" style="height: 200px ;padding-bottom: 3%;" class="w-100"></a>
+          <h5 class="text-center">BHEL MIX</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>30 gm.- Rs 5.00</option>
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+          <!-- <h5 class="text-center">DRY FRUITS</h5> -->
+
+        </div>
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img src="image/sev-murmura.jpg" style="height: 200px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">SEV MURMURA</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>30 gm.- Rs 5.00</option>
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+
+        </div>
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img src="image/masala-sev-murmura.jpeg" style="height: 200px;padding-bottom: 3%"
+              class="w-100"></a>
+          <h5 class="text-center">MASALA SEV MURMURA</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>30 gm.- Rs 5.00</option>
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+        </div>
+
+        <div class="col-md-3"></div>
+
+
+      </div><!---row end-->
+    </div><!--container end-->
+  </div><!--end container-fluid--->
+
+  <br>
+  <div class="container-fluid">
+    <div class="container">
+      <h2 class="text-center k">BALAJI<b style="color: green;">NAMKEEN</b></h2>
+      <br>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img src="image/classic-sev.jpeg" style="height: 230px ;padding-bottom: 3%;" class="w-100"></a>
+          <h5 class="text-center">CLASSIC SEV</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>25 gm.- Rs 5.00</option>
+              <option>400 gm.- Rs 60.00</option>
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+          <!-- <h5 class="text-center">DRY FRUITS</h5> -->
+
+        </div>
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img
+              src="image/khatta-mitha-mix.jpeg"
+              style="height: 230px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">KHATTA MITHA MIX</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>25 gm.- Rs 5.00</option>
+              <option>500 gm.- Rs 80.00</option>
+
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+        </div>
+
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img
+              src="image/punjabi-tadka.jpeg"
+              style="height: 230px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">PUNJABI TADKA</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>25 gm.- Rs 5.00</option>
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+        </div>
+
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img src="image/ratlami-sev.jpg"
+              style="height: 230px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">RATLAMI SEV</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>25 gm.- Rs 5.00</option>
+              <option>200 gm.- Rs 35.00</option>
+              <option>400 gm.- Rs 65.00</option>
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+        </div>
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img
+              src="image/allo-sev.jpeg"
+              style="height: 230px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">ALOO SEV</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>25 gm.- Rs 5.00</option>
+              <option>200 gm.- Rs 35.00</option>
+              <option>400 gm.- Rs 70.00</option>
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+        </div>
+
+        <div class="col-md-1"></div>
+
+
+      </div><!---row end-->
+    </div><!--container end-->
+  </div><!--end container-fluid--->
+  <br>
+  <div class="container-fluid">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-1"></div>
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img
+              src="image/gathiya.jpeg"
+              style="height: 230px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">GATHIYA</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>25 gm.- Rs 5.00</option>
+              <option>300 gm.- Rs 50.00</option>
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+
+        </div>
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img src="image/chana-jor-garam.jpg"
+              style="height: 230px ;padding-bottom: 3%;" class="w-100"></a>
+          <h5 class="text-center">CHANA JOR GARAM</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>30 gm.- Rs 5.00</option>
+              <option>220 gm.- Rs 35.00</option>
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+
+        </div>
+
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img src="image/shing-bhujiya.jpg" style="height: 230px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">SHING BHUJIA</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>25 gm.- Rs 5.00</option>
+              <option>200 gm.- Rs 35.00</option>
+              <option>400 gm.- Rs 65.00</option>
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+        </div>
+
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img
+              src="image/thikha-mitha-mix.jpeg"
+              style="height: 230px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">TIKHA MITHA MIX</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>25 gm.- Rs 5.00</option>
+              <option>230 gm.- Rs 40.00</option>
+              <option>500 gm.- Rs 80.00</option>
+
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+
+          </div>
+        </div>
+        <div class="col-md-2 shadow-lg mb-5 p-3">
+          <a href=""> <img
+              src="image/farali-chevdo.jpg"
+              style="height: 230px;padding-bottom: 3%" class="w-100"></a>
+          <h5 class="text-center">FARALI CHEVDO</h5>
+          <div class="mb-3 ms-3 me-3">
+            <select class="form-control">
+
+              <option>Select Packet</option>
+              <option>30 gm.- Rs 5.00</option>
+            </select>
+            <br>
+            <button class="btn" style="background-color:green ;color: white;">Add to cart</button>
+          </div>
+        </div>
+
+        <div class="col-md-1"></div>
+      </div><!---row end-->
+    </div><!--container end-->
+  </div><!--end container-fluid--->
+
+
+
+  <br>
+
+
+  <div class="container-fluid mainfooter ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <center>
+            <img src="image/17.png" class="w-100">
+          </center>
+        </div>
+        <div class="col-md-7">
+          <h1 class="i"><span style="color: green;">CONTACT</span> US</h1>
+          <p class="text-black">I have make this website for our shop and the motive is that we wants to provide some
+            help to our customers.Customers can easily access this website and check the availabikity of the items.Thank
+            you for visiting my shop!!</p>
+          <br>
+          <div class="row">
+            <div class="col-md-3">
+              <p style="color: green;">Address</p>
+              <p class="text-black">Sadar Bazar Orai Road Mihona,Bhind(M.P.)</p>
+            </div>
+            <div class="col-md-5">
+              <p style="color: green;font-size: 18px;">Contact</p>
+              <p class="text-black">Mobile:<span style="color: green;"> +91 9399437139</span><br>
+                Email:<span style="color: green;"> guptashubhpradeep@gmail.com</span></p>
+
+            </div>
+
+            <div class="col-md-4">
+              <p style="color: green;font-size: 18px;">Other Information </p>
+              <p class="text-black">Mobile:<span style="color: green;"> +91 8349774118</span><br>
+                Email:<span style="color: green;"> tg425312@gmail.com</span></p>
+
+            </div>
+          </div>
+
+        </div><!---row end-->
+      </div><!--container end-->
+    </div><!--end container-fluid--->
+  </div>
+
+
+  <div class="header">
+    <h3 class="text-center text-white">TERMS AND CONDITIONS | BLOG<br>
+      COPYRIGHT © 2021 CREATED BY <b> TANYA GUPTA</b></h3>
+  </div>
+
+  <div class="modal fade" id="aa">
+
+    <div class="modal-dialog modal-sm"><!---modal-sm,xl,lg--->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login Form</h5>
+
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div><!---modal header end--->
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label>Username:</label>
+              <input type="text" name="" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label>Password:</label>
+              <input type="Password" name="" class="form-control">
+            </div>
+            <button class="btn " style="background-color: green;color: white;">Login</button>
+
+          </form>
+        </div><!-- modal body--->
+      </div><!---model dialog--- end=--->
+    </div><!---modal end--->
+</body>
+
+</html>
